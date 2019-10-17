@@ -12,7 +12,7 @@ class CashRegister
     @total += price * quantity
     @last_transaction =
     {
-      :name: => item,
+      name: item,
       :price =
     }
     quantity.times do
