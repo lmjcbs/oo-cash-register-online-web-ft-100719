@@ -29,6 +29,7 @@ class CashRegister
     @total -= @last_transaction.values[0]
     @items.pop
     if @items.size = 0
+      @total = 0 
   end
 
 end
