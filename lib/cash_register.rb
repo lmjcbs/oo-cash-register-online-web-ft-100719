@@ -35,7 +35,6 @@ class CashRegister
     @last_transaction[:quantity].times do
       @items.pop
     end
-    @items.pop
     @total = 0 if @items.size  == 0
   end
 
