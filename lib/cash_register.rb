@@ -10,7 +10,7 @@ class CashRegister
 
   def add_item(item, price, quantity = 1)
     @total += price * quantity
-    @last_transaction = { item => price }
+    @last_transaction = { :name => item }
     quantity.times do
       @items << item
     end
