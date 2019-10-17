@@ -13,8 +13,6 @@ class CashRegister
   end
 
   def apply_discount
-    puts @total
-    puts @discount
     @total *= (1 - (@discount.to_f / 100.0)) if @discount > 0
     puts @total
     "After the discount, the total comes to $#{@total.to_i}."
