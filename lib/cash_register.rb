@@ -13,7 +13,7 @@ class CashRegister
     @last_transaction =
     {
       name: item,
-      :price =
+      price: =
     }
     quantity.times do
       @items << item
